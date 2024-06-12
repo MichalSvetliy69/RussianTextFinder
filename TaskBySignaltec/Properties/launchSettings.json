@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TaskBySignaltec": {
+      "commandName": "Project",
+      "commandLineArgs": "\"\\RussianTextFinder\\FileExample.cs\""
+    }
+  }
+}
