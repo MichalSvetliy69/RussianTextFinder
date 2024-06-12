@@ -1,32 +1,173 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Visual Studio
+.vscode/
+.vs/
 *.exe
-*.out
-*.app
+*.dll
+*.pdb
+*.cache
+*.mdb
+*.log
+*.csproj.user
+*.suo
+*.user
+*.aps
+*.sln.docstates
+*.vcxproj.user
+*.pidb
+*.booproj
+*.svd
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows 10 upgrade logs
+$Windows.~BT/
+$Windows.~WS/
+
+# Windows error reporting
+*.stackdump
+
+# Windows 10 inking file
+*.ink
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# End of line handling
+*.eol
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Dotnet user directories
+.dotnet/
+
+# Local History for Visual Studio
+.localhistory/
+
+# Tye
+.tye/
+
+# Coverage Results
+coverage/
+*.coverage
+*.coveragexml
+*.coverage.json
+coverage.info
+coverage.opencover.xml
+coverage.cobertura.xml
+TestResults/
+*.lcov
+
+# Others
+*.ncrunchproject
+*.ncrunchsolution
+*.dotsettings.user
+.idea
+*.sln.ide
+
+# Local History for Visual Studio Code
+.history/
+
+# Others
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+
+# Others
+.vscode/
+.vscode-test/
+
+# Project model lock files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Cake
+tools/*
+# Uncomment if you have production tool packages
+#!tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# ASP.NET SignalR
+*.generated.cs
+
+# Telerik's JustCode
+.justcode
+
+# Coverity Scan
+.coverity
+
+# StyleCop
+StyleCop.Cache
+
+# Chocolatey
+tools/_temp/
